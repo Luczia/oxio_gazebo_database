@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<sdf version="1.6">
+  <model name="small_appartment">
+    <pose>0 0 0.0 0 0 0</pose>
+    <static>true</static>
+
+    <link name="map">
+      <inertial>
+        <mass>10000</mass>      
+      </inertial>-->
+  
+      <visual name="visual">
+        <geometry>
+           <mesh><uri>meshes/appart_textured.dae</uri></mesh>
+        </geometry>        
+      </visual>
+
+      <collision name="collision">
+         <geometry>
+            <mesh><uri>meshes/appart_textured.dae</uri></mesh>
+         </geometry>        
+      </collision>
+    </link>
+
+  </model>
+</sdf>
+
+
+
+
+
+
