@@ -6,19 +6,26 @@ This a repository containing different Gazebo models (under the SDF format) to e
 
 
 ## Prerequesite
-This model set has been tested with Gazebo 9
+This model set has been tested with Gazebo 9.
 Download or clone this repo in a location of your choice and then add this folder as a Gazebo model database path.
-Type in the terminal before launching gazebo (or add this line to youe ~/.bashrc.
+
+To do so, type the following command in the terminal before launching gazebo (or add this line to your ~/.bashrc).
 
 ```
-export GAZEBO_MODEL_PATH=[...]/oxio_gazebo_database:$GAZEBO_MODEL_PATH
+export GAZEBO_MODEL_PATH=[...yourpath...]/oxio_gazebo_database:$GAZEBO_MODEL_PATH
 ```
 
 ## Content
 This database contains :
-        - small_appartment : a building model of a typical european small 2 rooms apparment (inspired from minde)
+        - small_appartment : a model of a typical small european 2 rooms apparment (inspired from mine :P )
         - couch : a couch in the middle of the living room that you can remove or not, depending if your robot has enough room to move
         - movee : a model for the movee robot 
+
+## Test
+To test, it, launch the file "ex_appart.world" from the repository:
+``` gazebo ex_appart.world ```
+
+## Enjoy ! :)
 
 
 ## More infos
