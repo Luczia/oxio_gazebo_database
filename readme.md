@@ -1,27 +1,27 @@
 # OxIO Gazebo models database
 
-##Context
+## Context
 
 This a repository containing different Gazebo models (under the SDF format) to enable simulation of robots in an indoor context (european appartment).
 
 
-##Prerequesite
+## Prerequesite
 This model set has been tested with Gazebo 9
 Download or clone this repo in a location of your choice and then add this folder as a Gazebo model database path.
 Type in the terminal before launching gazebo (or add this line to youe ~/.bashrc.
 
-'''
+```
 export GAZEBO_MODEL_PATH=[...]/oxio_gazebo_database:$GAZEBO_MODEL_PATH
-''''
+```
 
-##Content
+## Content
 This database contains :
         - small_appartment : a building model of a typical european small 2 rooms apparment (inspired from minde)
         - couch : a couch in the middle of the living room that you can remove or not, depending if your robot has enough room to move
         - movee : a model for the movee robot 
 
 
-##More infos
+## More infos
 
 I created this datase using blender, following those tutorial :
 
